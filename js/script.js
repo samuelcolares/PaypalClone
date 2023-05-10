@@ -71,9 +71,6 @@ if (window.innerWidth < 1000) {
     })
 }
 
-window.addEventListener('resize', () => {
-    window.location.reload()
-})
 
 const PayPalLogo = document.querySelectorAll('.navbar-logo')
 PayPalLogo.forEach(logo => {
